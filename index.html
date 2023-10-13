@@ -33,11 +33,14 @@
         <main>
             <section id="personal-info">
                 <h1>Joe Bloggs</h1>
-                <p><strong>Location</strong> Newcastle-upon-Tyne</p>
-                <p><strong>Phone Number</strong> 07654786554</p>
-                <p><strong>Hobbies</strong> Photography, fossil hunting, basket weaving</p>
-                <p><strong>Favourite Songs</strong> Barbie, Mr Traumatic, Darude - Sandstorm</p>
-                <p><strong>Favourite Films</strong> Borat, The Interview, Oppenheimer</p>
+                <br>
+                <div id="meta-info">
+                    <p><strong>Location</strong> Newcastle-upon-Tyne&nbsp;&nbsp;</p>
+                    <p><strong>Phone Number</strong> 07654786554&nbsp;&nbsp;</p>
+                    <p><strong>Hobbies</strong> Photography, fossil hunting, basket weaving&nbsp;&nbsp;</p>
+                    <p><strong>Favourite Songs</strong> Barbie, Mr Traumatic, Darude - Sandstorm&nbsp;&nbsp;</p>
+                    <p><strong>Favourite Films</strong> Borat, The Interview, Oppenheimer</p>
+                </div>
                 <h2>Bio</h2>
                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vero alias incidunt asperiores? Quod velit dolore beatae laudantium praesentium fuga optio nulla sint. Dolorem maxime nemo modi temporibus corporis beatae, pariatur ullam esse eligendi, sapiente id repellendus. Quod sunt repellendus dolores obcaecati voluptatem dolorem tempore incidunt et autem dignissimos tempora repudiandae unde molestiae voluptates culpa expedita perferendis possimus quae, quis omnis aperiam praesentium porro. Dicta ducimus aut dolores accusantium dolor, distinctio sed porro eveniet ut. Accusantium.</p>
             </section>
@@ -49,33 +52,43 @@
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas modi rerum voluptatibus nihil amet dolorem natus id distinctio, similique tempora blanditiis, minus, ullam doloremque tenetur est consequatur aut ipsa. Illum quis dolor magnam eaque laborum necessitatibus iure tenetur, alias maiores, ratione eos? Officiis, explicabo quae aliquam placeat excepturi quaerat. Eius minima placeat, voluptas minus impedit laudantium amet! Eaque, aspernatur blanditiis!</p>
                 <h3>Dolor</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab dolorem voluptatibus commodi minima alias! Iste, aperiam ratione aut sit qui consectetur consequuntur ad! Dicta quibusdam molestiae laudantium, laborum dolor odit. Illo totam vitae, asperiores consectetur mollitia aperiam unde ducimus impedit corrupti excepturi, aliquam repudiandae, inventore cumque facilis. Expedita quod sequi molestias quam nobis unde ratione deserunt doloribus illum asperiores nisi dicta blanditiis, error facilis fugit commodi et vel molestiae quas.</p>
-                <h3>Top 5 Holiday Destinations</h3>
-                <ol>
-                    <li><a href="https://en.wikipedia.org/wiki/Gaza_Strip" target="_blank">Gaza</a></li>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Pariatur, in. Minima, corrupti, ipsa in dicta repellat hic eius iusto laborum rem consequatur quos magnam quod qui fugiat dolor laudantium aspernatur!</p>
-                    <img src="./assets/gaza.png" />
-                    <li><a href="https://en.wikipedia.org/wiki/Ukraine" target="_blank">Ukraine</a></li>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde quod temporibus corrupti consectetur numquam enim dolorum asperiores sequi veritatis, ea quos esse ipsum excepturi laboriosam praesentium deserunt culpa voluptates sunt?</p>
-                    <img src="./assets/ukraine.jpg" />
-                    <li><a href="https://en.wikipedia.org/wiki/Somalia" target="_blank">Somalia</a></li>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem quo asperiores ad eos tempora, nemo ducimus quia doloremque pariatur maiores? Placeat odit explicabo accusamus obcaecati odio ullam praesentium voluptatibus cum!</p>
-                    <img src="./assets/somalia.jpg" />
-                    <li><a href="https://en.wikipedia.org/wiki/Brazil" target="_blank">Brazil</a></li>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa voluptatem possimus sequi assumenda deleniti, vero pariatur velit. Veniam dolores eaque vero ad aliquam, minus laboriosam placeat ullam expedita, aut dignissimos!</p>
-                    <img src="./assets/brazil.jpg" />
-                    <li><a href="https://en.wikipedia.org/wiki/Russia" target="_blank">Russia</a></li>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi cumque et laudantium a expedita optio quam, sunt eveniet ut dicta nisi tempora inventore ex voluptates, reiciendis officia eligendi provident. Officiis!</p>
-                    <img src="./assets/russia.jpg" />
-                </ol>
+                <h3>Top 3 Holiday Destinations</h3>
+                <div id="grid-wrapper">
+                    <ol class="post-grid-container">
+                        <li class="post-grid-item">
+                            <a href="https://en.wikipedia.org/wiki/Gaza_Strip" target="_blank">Gaza</a>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Pariatur, in. Minima, corrupti, ipsa in dicta repellat hic eius iusto laborum rem consequatur quos magnam quod qui fugiat dolor laudantium aspernatur!</p>
+                            <img src="./assets/gaza.png" />
+                        </li>
+                        <li class="post-grid-item">
+                            <a href="https://en.wikipedia.org/wiki/Ukraine" target="_blank">Ukraine</a>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde quod temporibus corrupti consectetur numquam enim dolorum asperiores sequi veritatis, ea quos esse ipsum excepturi laboriosam praesentium deserunt culpa voluptates sunt?</p>
+                            <img src="./assets/ukraine.jpg" />
+                        </li>
+                        <li class="post-grid-item">
+                            <a href="https://en.wikipedia.org/wiki/Somalia" target="_blank">Somalia</a>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem quo asperiores ad eos tempora, nemo ducimus quia doloremque pariatur maiores? Placeat odit explicabo accusamus obcaecati odio ullam praesentium voluptatibus cum!</p>
+                        <img src="./assets/somalia.jpg" />
+                        </li>
+                        <!--<li class="post-grid-item">
+                            <a href="https://en.wikipedia.org/wiki/Brazil" target="_blank">Brazil</a>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa voluptatem possimus sequi assumenda deleniti, vero pariatur velit. Veniam dolores eaque vero ad aliquam, minus laboriosam placeat ullam expedita, aut dignissimos!</p>
+                        <img src="./assets/brazil.jpg" />
+                        </li>
+                        <li><a href="https://en.wikipedia.org/wiki/Russia" target="_blank">Russia</a></li>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi cumque et laudantium a expedita optio quam, sunt eveniet ut dicta nisi tempora inventore ex voluptates, reiciendis officia eligendi provident. Officiis!</p>
+                        <img src="./assets/russia.jpg" />-->
+                    </ol>
+                </div>  
             </section>
         </main>
         <footer>
             <h3>
                 <ul>
-                    <li><a target="_blank" href="https://twitter.com/realDonaldTrump"><i class="fab fa-twitter"></i> Twitter</a></li>
-                    <li><a target="_blank" href="https://www.facebook.com/beyonce/?locale=en_GB"><i class="fa-brands fa-facebook"></i> Facebook</a></li>
-                    <li><a target="_blank" href="https://www.instagram.com/_andrew__tate_____/?hl=en-gb"><i class="fa-brands fa-instagram"></i> Instagram</a></li>
-                    <li><a target="_blank" href="https://www.youtube.com/@MrBeast"><i class="fa-brands fa-youtube"></i> YouTube</a></li>
+                    <li><a target="_blank" href="https://twitter.com/realDonaldTrump"><i class="fab fa-twitter"></i></a></li>
+                    <li><a target="_blank" href="https://www.facebook.com/beyonce/?locale=en_GB"><i class="fa-brands fa-facebook"></i></a></li>
+                    <li><a target="_blank" href="https://www.instagram.com/_andrew__tate_____/?hl=en-gb"><i class="fa-brands fa-instagram"></i></a></li>
+                    <li><a target="_blank" href="https://www.youtube.com/@MrBeast"><i class="fa-brands fa-youtube"></i></a></li>
                 </ul>
             </h3>
         </footer>

@@ -6,6 +6,7 @@
     box-sizing: border-box;
 }
 
+
 body {
     background-image: url('./assets/background.gif');
     background-size: cover;
@@ -14,12 +15,12 @@ body {
 
     width: 100%;
     height: 100%;
-    max-width: 100%;
+
 
 }
 
 main {
-    margin: 10px;
+    padding: 20px;
     color: antiquewhite;
     font-family: 'Quicksand', sans-serif;
 }
@@ -115,6 +116,13 @@ nav img {
     #navbar-mobile {
         display: none;
     }
+
+    .post-grid-container {
+        display: grid;
+        gap: 10px;
+        grid-template-columns: 30vw 30vw 30vw;
+        text-align: center;
+    }
 }
 
 button {
@@ -133,3 +141,32 @@ button {
 button:active {
 
 } */
+
+footer {
+    background: linear-gradient(to top, rgb(56, 56, 85) 75%, rgba(56, 56, 85, 0));
+    display: block;
+    margin-bottom: -15px;
+}
+
+#grid-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+footer ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+
+footer i {
+    color: white;
+    margin: 30px;
+}
+
+#meta-info {
+    display: flex;
+
+}
+
+
